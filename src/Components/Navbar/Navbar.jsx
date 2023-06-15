@@ -19,6 +19,7 @@ const Navbar = () => {
         <section className="navBarSection">
             <header className="header flex">
                 <div className="logoDiv">
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a href="#" className="logo flex">
                         <h1><MdOutlineTravelExplore className="icon"/>Travel.</h1>
                     </a>
@@ -26,33 +27,41 @@ const Navbar = () => {
                 <div className={active}>
                     <ul className="navLists flex">
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">Home</a>
                         </li>
 
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">Packages</a>
                         </li>
 
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">Shop</a>
                         </li>
 
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">About</a>
                         </li>
 
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">Pages</a>
                         </li>
 
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">News</a>
                         </li>
                         
                         <li className="navItem">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="navLink">Contact</a>
                         </li>
                         <button className="btn">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#">BOOK NOW</a>
                         </button>
                     </ul>

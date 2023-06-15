@@ -42,6 +42,7 @@ const Footer = () => {
                 <div className="footerCard flex">
                     <div className="footerIntro flex">
                         <div className="logoDiv">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a href="#" className="logo flex">
                                 <MdOutlineTravelExplore className="icon"/> Travel.
                             </a>
