@@ -1,5 +1,5 @@
 import React from "react";
-import '/travel/src/app.css'
+import './style/app.css'
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Main from "./Components/Main/Main";
